@@ -6,7 +6,6 @@ pipeline {
     environment {
         GO114MODULE = 'on'
         CGO_ENABLED = 0 
-        GOPATH = "/usr/local/go/bin"
     }
     stages {        
         stage('Pre Test') {
